@@ -1,0 +1,52 @@
+.navbar-header {
+  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  position: relative;
+  color: white;
+  font-family: "Lora", serif;
+}
+
+.header-overlay {
+  background-color: rgba(0, 0, 0, 0.55);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar-nav .nav-link {
+  color: #f8f9fa;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #f8c471;
+}
+
+.header-text {
+  margin-top: auto;
+  padding-bottom: 3rem;
+}
+
+.header-text h1 {
+  font-size: 3.2rem;
+  letter-spacing: 2px;
+}
+
+.header-text p {
+  font-size: 1.2rem;
+  color: #dcdcdc;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-header {
+  overflow: visible;
+}
+
